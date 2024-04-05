@@ -66,5 +66,5 @@ yarn-error.log
 /coverage
 
 # additional files
-index.js
+./boilerplate.js
 /boilerplateTest

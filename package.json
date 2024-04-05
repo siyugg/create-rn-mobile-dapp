@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "bin": {
-    "create-react-native-mobile-dapp": "./index.js"
+    "create-react-native-mobile-dapp": "./boilerplate.js"
   },
   "type": "module",
   "dependencies": {
