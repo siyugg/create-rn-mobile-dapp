@@ -1,16 +1,14 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import AppNavigator from './navigators/AppNavigator';
+import {NavigationContainer} from '@react-navigation/native';
+import { WalletProvider } from './components/walletContext';
 
-const App = () => {
+export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-      <Text>Mobile dApp boilerplate</Text>
-    </View>
+    <WalletProvider>
+      <NavigationContainer>
+        <AppNavigator />
+      </NavigationContainer>
+    </WalletProvider>
   );
-};
-export default App;
+}
