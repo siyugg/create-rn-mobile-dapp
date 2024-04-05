@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "bin": {
-    "create-react-native-mobile-dapp": "./boilerplate.js"
+    "create-rn-mobile-dapp": "./boilerplate.js"
   },
   "type": "module",
   "dependencies": {
@@ -41,6 +41,6 @@
     "dapp",
     "boilerplate"
   ],
-  "author": "Your Name",
+  "author": "Siyu Gao",
   "license": "MIT"
 }
