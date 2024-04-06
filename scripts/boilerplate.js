@@ -20,13 +20,12 @@ try {
   fs.mkdirSync(projectPath);
 } catch (err) {
   if (err.code === 'EEXIST') {
-    console.log(`The file ${projectName} already exist in the current directory, please give it another name.`);
+    console.log(`The file ${projectName} already exists in the current directory. Please give it another name.`);
   } else {
     console.log(error);
   }
   process.exit(1);
 }
-
 
 async function main() {
     try {
@@ -39,13 +38,14 @@ async function main() {
       execSync('npm install');
 
       console.log('Removing useless files');
-      execSync('npx rimraf ./.git');
-      fs.rmdirSync(path.join(projectPath, 'bin'), { recursive: true});
+      if (fs.existsSync(path.join(projectPath, 'bin'))) {
+        fs.rmdirSync(path.join(projectPath, 'bin'), { recursive: true });
+      }
 
-      console.log('The installation is done, this is ready to use !');
-
+      console.log('The installation is done. This is ready to use!');
     } catch (error) {
       console.log(error);
     }
 }
+
 main();

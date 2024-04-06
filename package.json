@@ -1,6 +1,10 @@
 {
   "name": "create-rn-mobile-dapp",
   "version": "1.0.0",
+  "description": "A boilerplate code for quick developemnt of dApps on mobile using React Native",
+  "main": "index.js",
+  "author": "Siyu Gao",
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,7 +14,7 @@
     "postinstall": "rn-nodeify --install 'crypto,process,stream,events' --hack"
   },
   "bin": {
-    "create-rn-mobile-dapp": "./boilerplate.js"
+    "create-rn-mobile-dapp": "./scripts/boilerplate.js"
   },
   "type": "module",
   "dependencies": {
@@ -58,10 +62,12 @@
   "keywords": [
     "react-native",
     "dapp",
-    "boilerplate"
+    "boilerplate",
+    "mobile",
+    "ganache-cli",
+    "blockchain"
   ],
-  "author": "Siyu Gao",
-  "license": "MIT",
+
   "react-native": {
     "crypto": "react-native-crypto",
     "_stream_transform": "readable-stream/transform",
