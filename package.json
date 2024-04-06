@@ -1,6 +1,6 @@
 {
   "name": "create-rn-mobile-dapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A boilerplate code for quick developemnt of dApps on mobile using React Native",
   "main": "index.js",
   "author": "Siyu Gao",
