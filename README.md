@@ -1,16 +1,22 @@
-# create-rn-mobile-dapp
+# [create-rn-mobile-dapp](https://www.npmjs.com/package/create-rn-mobile-dapp)
 
 Get started with creating your decentralised application (dApp) with React Native using this boilerplate code.
 
 This boilerplate code serves as a quick development playground for developing mobile dApps on local blockchain. 
 
-To get started, clone this repository into a directory
+To get started, install the npm package
 ```
-git clone https://github.com/siyugg/create-rn-mobile-dapp.git
+npm i create-rn-mobile-dapp
 ```
-Run `npm install` to install the packages in `package.json`. 
+Then, start the boilerplate code:
+```
+npx create-rn-mobile-dapp my-dapp
+```
+>Replace my-dapp with your project name
 
-Create a `.env` file in the project's root directory. 
+- Run `npm install` to install the packages in `package.json`. 
+
+- Create a `.env` file in the project's root directory. 
 **Make sure this file is in `.gitignore`** 
 
 ## Setting up </br>

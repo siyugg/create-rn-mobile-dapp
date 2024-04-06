@@ -10,8 +10,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest",
-    "postinstall": "rn-nodeify --install 'crypto,process,stream,events' --hack"
+    "test": "jest"
   },
   "bin": {
     "create-rn-mobile-dapp": "./scripts/boilerplate.js"
