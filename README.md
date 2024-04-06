@@ -39,7 +39,6 @@ Ensure the following are installed and setup.
     Enable the developer mode on the test device. See guide [here](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device).</br>
 
 **4. Install MetaMask on the test device** </br></br>
-
 After Login, go to `Settings>Networks>Add Network>Custom networks` </br>
 Enter the details as follows to add the network:</br>
 
@@ -63,10 +62,10 @@ Upon successful import, you should be able to see the address, and the balance.
 
 ## Building the app
 
-**1. In the project's root directory, install the pods by running in the terminal:**
-    ```
-    cd ios && pod install && cd ..
-    ```
+**1. In the project's root directory, install the pods by running in the terminal:**</br>
+```
+cd ios && pod install && cd ..
+```
 
 **2. Connect your test device to the local machine and open the project in Xcode.**</br>
 

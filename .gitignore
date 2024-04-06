@@ -68,4 +68,5 @@ yarn-error.log
 
 # additional files
 ./boilerplate.js
+.npmignore
 
