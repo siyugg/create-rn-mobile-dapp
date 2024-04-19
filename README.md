@@ -29,7 +29,7 @@ ganache-cli --server.host 0.0.0.0 --server.port 8545
 ```
 This will create an instance of some test accounts with balance that are free to use for development.
 
-### **2. Create a WalletConnect project ID by following [this guide](https://docs.walletconnect.com/web3inbox/cloud-setup)**</br></br>
+### **2. Create a WalletConnect project ID by following [this guide](https://docs.walletconnect.com/web3inbox/cloud-setup](https://docs.walletconnect.com/cloud/explorer-submission)**</br></br>
 Copy the project ID into `.env` file in the format:</br>
 ```
 REACT_APP_WALLETCONNECT_PROJECT_ID=PROJECTID
